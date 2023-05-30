@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+    body {
+        font-family: 'Space Mono', monospace;
+        @apply
+            bg-light-grayish-cyan
+    }
+    
+    html, body, #app {
+        @apply
+            m-0
+            h-full
+    }
+
+    #app {
+        @apply
+            flex
+            flex-col
+    }
+}
